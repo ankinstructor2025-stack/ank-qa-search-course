@@ -1,0 +1,17 @@
+{
+  "input": "qa.csv",
+  "vector_field": "question",
+  "n_rows": 205,
+  "tfidf": {
+    "analyzer": "char_wb",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "sublinear_tf": true,
+    "norm": "l2",
+    "n_features": 1866
+  }
+}
